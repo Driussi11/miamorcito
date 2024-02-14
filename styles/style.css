@@ -1,0 +1,39 @@
+body{
+    background-image: url("../Img/Untitled-1.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#container_buttons{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#buttonYes {
+    color: white;
+    font-size: 70px;
+    margin-right: 120px;
+    background-color: rgb(202, 35, 202);
+}
+#buttonNo {
+    color: red;
+    background-color: black;
+    font-size: 10px;
+}
